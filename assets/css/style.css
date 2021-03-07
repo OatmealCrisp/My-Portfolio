@@ -48,7 +48,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 10px 15px;
+    padding: 10px 25px;
     font-size: 28px;
 }
 
@@ -176,7 +176,7 @@ header nav ul li a:hover {
     border: #5fcbba 4px solid;
 }
 
-/* Contact */
+/* Contact styles */
 .contact {
     display: flex;
     justify-content: center;
@@ -230,6 +230,31 @@ header nav ul li a:hover {
     padding: 10px 15px;
     border-bottom: #5fcbba 2px solid;
 }
+
+@media screen and (max-width: 768px) {
+    header {
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        justify-content: center;
+        width: 50%;
+    }
+
+    .buddy-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .buddy-img {
+        display: flex;
+        width: 20%;
+        border: none;
+        padding: 10px;
+    }
+}
+
+
 
 /* Footer styles */
 footer {
