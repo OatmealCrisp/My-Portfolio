@@ -19,6 +19,7 @@ header {
     position: sticky;
     top: 0;
     border-bottom: #5fcbba 2px solid;
+    z-index: 9000;
 }
 
 header h1 {
@@ -59,6 +60,7 @@ header nav ul li a:hover {
 }
 
 
+/* About styles */
 .about {
     display: flex;
     justify-content: center;
@@ -84,7 +86,7 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 25px 475px;
+    padding: 25px 475px 50px;
     
 }
 
@@ -102,6 +104,76 @@ header nav ul li a:hover {
     padding-right: 10px;
     padding-left: 20px;
     font-size: 18px;
+}
+
+
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    background-color: #1a2d3d;
+}
+
+.projects h2 {
+    font-size: 48px;
+    color: #5fcbba;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    border-bottom: #5fcbba 2px solid;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.buddy {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.buddy-img {
+    display: flex;
+    padding: auto;
+    justify-content: center;
+    margin: 25px 300px;
+    position: relative;
+    text-align: center;
+    border: #5fcbba 4px solid;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    z-index: 100;
+    font-size: 20px;
+    color: #011627;
+    text-decoration: none;
+}
+
+.projects-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.horiseon-img {
+    display: flex;
+    margin: 0 25px;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+    border: #5fcbba 4px solid;
+}
+
+.tickets-img {
+    display: flex;
+    margin: 0 25px;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+    border: #5fcbba 4px solid;
 }
 
 /* Footer styles */
